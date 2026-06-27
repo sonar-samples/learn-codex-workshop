@@ -27,8 +27,8 @@ This workshop was built and tested on macOS. On Windows, run `apply-sonar.sh` fr
 Clone this repo:
 
 ```bash
-git clone https://github.com/kcarlsen-sonarsource/sonarqube-codex-workshop.git
-cd sonarqube-codex-workshop
+git clone https://github.com/sonar-samples/learn-codex-workshop.git
+cd learn-codex-workshop
 ```
 
 Pre-pull the Docker images so they're ready when you need them:
@@ -69,13 +69,13 @@ From the repo root:
 The script creates the project, writes configuration files (`sonar-project.properties` and `.sonarlint/connectedMode.json`), and runs an analysis. The whole process takes about 40 seconds. At the end you'll see a summary with quality gate status and a dashboard URL:
 
 ```text
-[OK] Project created: <your-org>_sonarqube-codex-workshop
+[OK] Project created: <your-org>_learn-codex-workshop
 [OK] Analysis complete.
 
 ══════════════════════════════════════════════════════
 SonarQube Cloud setup complete!
 
-Project:       sonarqube-codex-workshop
+Project:       learn-codex-workshop
 Dashboard:     https://sonarcloud.io/project/overview?id=...
 Quality Gate:  Not Computed
 ══════════════════════════════════════════════════════
